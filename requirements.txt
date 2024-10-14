@@ -1,0 +1,43 @@
+# Python Development
+pre-commit
+psutil
+pytest
+pytest-mpi
+tqdm
+
+# Machine Learning
+torch==1.13.1
+deepspeed
+hydra-core
+matplotlib
+pandas
+pickle5
+tensorboard
+wandb
+--extra-index-url https://download.pytorch.org/whl/cu116
+
+# Computer Vision
+torchvision==0.14.1
+--extra-index-url https://download.pytorch.org/whl/cu116
+
+# Graph Learning
+pyg_lib
+torch_scatter==2.1.0+pt113cu116
+torch_sparse==0.6.16+pt113cu116
+torch_cluster==1.6.0+pt113cu116
+torch_spline_conv==1.2.1+pt113cu116
+torch_geometric==2.2.0
+-f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+
+dgl-cu113
+dglgo
+-f https://data.dgl.ai/wheels/repo.html
+
+ase
+e3nn
+ogb
+mendeleev
+networkx
+
+# Dynamics
+torchdiffeq==0.2.3
